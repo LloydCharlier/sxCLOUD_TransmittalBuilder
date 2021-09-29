@@ -1,0 +1,50 @@
+﻿/* custom open tool icon */
+/*Active state*/
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reOpen:before
+{
+    content:     "\e0A2";
+    font-family: TelerikWebUI;
+}
+
+/*Hovered state*/
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reOpen:hover:before
+{
+    content:     "\e0A2";
+    font-family: TelerikWebUI;
+}
+
+/*Selected state*/
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reOpen.reToolSelected:before
+{
+    content:     "\e0A2";
+    font-family: TelerikWebUI;
+}
+
+/* custom insert tool icon */
+/*Active state*/
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reInsertSmartTag:before,
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reFirstName:before,
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reLastName:before,
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reDocumentName:before,
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reDocumentAuthor:before
+{
+    content: "\e919";
+}
+
+/*Hovered state*/
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reInsertSmartTag:before,
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reFirstName:hover:before,
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reLastName:hover:before,
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reDocumentName:hover:before,
+div.RadEditor .reToolBarWrapper .RadRibbonBar .reDocumentAuthor:hover:before
+{
+    content: "\e919";
+}
+
+/* demo container */
+.demo-container.no-bg
+{
+    margin: 0 auto;
+    width:  100%;
+    height: 100%;
+}

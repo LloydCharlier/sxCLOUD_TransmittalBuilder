@@ -1,0 +1,293 @@
+﻿/* #region Common */
+
+html, body, form
+{
+	height:   100%;
+	margin:   0;
+	overflow: hidden;
+	padding:  0;
+}
+
+body
+{
+	background:  #ffffff;
+	color:       #000000;
+    font:        13px/1.3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.nav,
+.nav ul
+{
+	*zoom:      1;
+	list-style: none;
+	margin:     0;
+	padding:    0;
+}
+
+.nav:after,
+.nav ul:after
+{
+	clear:   both;
+	content: "";
+	display: block;
+}
+
+.nav > ul > li
+{
+	float:          left;
+	margin:         0 1em;
+	vertical-align: middle;
+}
+/* #endregion */
+
+/* #region Layout */
+
+/* Header */
+#header
+{
+    background: #000000;
+    color:      #ffffff;
+    padding:    10px;
+    zoom:       1;
+}
+
+#header:after
+{
+    clear:   both;
+    content: "";
+    display: block;
+}
+
+#header h1
+{
+    float:  left;
+    margin: 0;
+}
+
+#header .nav
+{
+    float:        right;
+    height:       30px;
+    line-height:  30px;
+    margin-right: 3em;
+}
+
+#header .nav li
+{
+    margin: 0 1em;
+}
+
+#header a
+{
+    color: #fff;
+}
+
+#header a:hover, #header a:active
+{
+    color: #999;
+}
+
+/* #region RadToolbar */
+.RadToolBar.main-toolbar
+{
+	-moz-box-sizing:  border-box;
+	background-color: #e8e8e8;
+	box-sizing:       border-box;
+	color:            #000;
+	font-size:        15px;
+	font-weight:      normal;
+	width:            100%;
+}
+
+.RadToolBar.main-toolbar .rtbOuter
+{
+	background: none;
+	border:     0;
+	padding:    1px;
+}
+
+.RadToolBar.main-toolbar .rtbItem
+{
+	border:       0;
+	border-right: 1px solid #cdcdcd;
+}
+
+.RadToolBar.main-toolbar .rtbWrap
+{
+	border-width: 0;
+	color:        inherit;
+}
+
+.RadToolBar.main-toolbar .rtbChoiceArrow
+{
+	background-position: -15px -65px;
+}
+
+/* Icons */
+.RadToolBar.main-toolbar .rtbIcon
+{
+	background-image:    url( "Content/toolbar-icon-sprite.png" );
+	background-position: 0 0;
+	background-repeat:   no-repeat;
+}
+
+.RadToolBar.main-toolbar .radIconNew .rtbIcon
+{
+	background-position: -2px -2px;
+}
+
+.RadToolBar.main-toolbar .radIconOpen .rtbIcon
+{
+	background-position: -2px -22px;
+}
+
+.RadToolBar.main-toolbar .radIconSave .rtbIcon
+{
+	background-position: -2px -42px;
+}
+
+.RadToolBar.main-toolbar .radIconUndo .rtbIcon
+{
+	background-position: -2px -62px;
+}
+
+.RadToolBar.main-toolbar .radIconRedo .rtbIcon
+{
+	background-position: -2px -82px;
+}
+
+.RadToolBar.main-toolbar .radIconCopy .rtbIcon
+{
+	background-position: -2px -102px;
+}
+
+.RadToolBar.main-toolbar .radIconPaste .rtbIcon
+{
+	background-position: -2px -122px;
+}
+
+/* Upload */
+.hiddenUpload
+{
+	cursor:   pointer;
+	height:   100%;
+	left:     0;
+	opacity:  0;
+	position: absolute;
+	top:      0;
+	z-index:  2;
+}
+
+.hiddenUpload input
+{
+	cursor: pointer;
+}
+
+.hiddenUpload .ruInputs
+{
+	height: 100%;
+}
+
+.RadToolBar.main-toolbar .uploadContainer
+{
+	cursor:         pointer;
+	overflow:       hidden;
+	padding-bottom: 1px;
+	padding-top:    3px;
+	position:       relative;
+}
+
+.uploadContainer > span
+{
+	position: relative;
+	z-index:  1;
+}
+
+/* #endregion */
+
+/* #region Footer*/
+#footer
+{
+	background: grey;
+	height:     40px;
+	padding:    0 1em;
+}
+
+
+#toolbar-container
+{
+    display: block;
+    margin:  0;
+    padding: 0;
+    width:   100%;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+.formItems
+{
+    -webkit-padding-start: 0 !important;
+    list-style:            none;
+    padding-left:          10px !important;
+}
+
+.ucWrapper
+{
+    padding-right: 10px;
+}
+
+
+/*================================================*/
+
+
+.RadWindow span.rwIcon::before
+{
+    content: "" !important;
+}
+
+.RadWindow span.rwIcon::before
+{
+    background-image:  url('../Images/sxIcon_32x32.gif') !important;
+    background-repeat: no-repeat !important;
+    height:            2em !important;
+    left:              .2em !important;
+    top:               30% !important;
+    width:             2em !important;
+}
+
+.RadWindow .rwTitle
+{
+    color:       #0070cd !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size:   16px !important;
+    font-weight: 500 !important;
+}
+
+.rtbSpace
+{
+    background: none;
+    border:     none;
+    width:      20px;
+}
+
+.separatorSpace
+{
+    margin-left:   100px;
+    margin-right:  100px;
+    padding-left:  100px;
+    padding-right: 100px;
+}

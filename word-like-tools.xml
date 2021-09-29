@@ -1,0 +1,78 @@
+﻿<?xml version = "1.0" encoding = "utf-8" ?>
+<root>
+  <modules>
+    <module name = "RadEditorStatistics"    enabled = "true"  visible = "true"/>
+    <module name = "RadEditorDomInspector"  enabled = "false" visible = "false" />
+    <module name = "RadEditorNodeInspector" enabled = "false" visible = "false" />
+    <module name = "RadEditorHtmlInspector" enabled = "false" visible = "false"  />
+  </modules>
+  <tools name = "Clipboard" tab = "Home">
+    <tool name = "PasteStrip"    size = "large"/>
+    <tool name = "Cut"           size = "medium" shortcut = "CTRL+X" showtext = "true" />
+    <tool name = "Copy"          size = "medium" shortcut = "CTRL+C"/>
+    <tool name = "FormatPainter" size = "medium" />
+  </tools>
+  <tools name = "Font" tab = "Home">
+    <tool name = "FontName"                               shortcut = "CTRL+SHIFT+F" />
+    <tool name = "Bold"          strip = "FontBasicTools" shortcut = "CTRL+B"/>
+    <tool name = "Italic"        strip = "FontBasicTools" shortcut = "CTRL+I"/>
+    <tool name = "Underline"     strip = "FontBasicTools" shortcut = "CTRL+U"/>
+    <tool name = "StrikeThrough" strip = "FontBasicTools1"/>
+    <tool name = "Superscript"   strip = "FontBasicTools1"/>
+    <tool name = "Subscript"     strip = "FontBasicTools1"/>
+    <tool name = "RealFontSize"                           shortcut = "CTRL+SHIFT+P" />
+    <tool name = "ForeColor"/>
+    <tool name = "BackColor"/>
+  </tools>
+  <tools name = "Paragraph" tab = "Home">
+    <tool name = "InsertUnorderedList" strip = "ListsAndIndention"/>
+    <tool name = "InsertOrderedList"   strip = "ListsAndIndention"/>
+    <tool name = "Indent"              strip = "ListsAndIndention"/>
+    <tool name = "Outdent"             strip = "ListsAndIndention"/>
+    <tool name = "InsertParagraph"     strip = "ListsAndIndention"/>
+    <tool name = "JustifyLeft"         strip = "Align"/>
+    <tool name = "JustifyCenter"       strip = "Align"/>
+    <tool name = "JustifyRight"        strip = "Align"/>
+    <tool name = "JustifyFull"         strip = "Align"/>
+    <tool name = "JustifyNone"         strip = "Align"/>
+    <tool name = "FormatBlock" />
+  </tools>
+  <tools name = "Editing" tab = "Home">
+    <tool name = "FindAndReplace" size = "medium" shortcut = "CTRL+F" text = "Find"/>
+    <tool name = "SelectAll"      size = "medium" shortcut = "CTRL+A"/> 
+    <tool name = "FormatStripper" size = "medium" showtext = "true" />
+  </tools>
+  <tools name = "Tables" tab = "Insert">
+    <tool name = "InsertTableLight" />
+    <tool name = "InsertRowAbove" />
+    <tool name = "InsertRowBelow" />
+    <tool name = "DeleteRow" />
+    <tool name = "InsertColumnLeft" />
+    <tool name = "InsertColumnRight" />
+    <tool name = "DeleteColumn" />
+    <tool name = "SetTableProperties" />
+    <tool name = "InsertTable" />
+  </tools>
+  <tools name = "Images" tab = "Insert">
+    <tool name = "ImageManager" size = "large" shortcut = "CTRL+G" text = "Picture" />
+  </tools>
+  <tools name = "Links" tab = "Insert">
+    <tool name = "LinkManager" size = "large" shortcut = "CTRL+K" text = "Hyperlink" />
+  </tools>
+  <tools name = "Text" tab = "Insert">
+    <tool name = "InsertGroupbox" size = "large"  text = "Groupbox" />
+    <tool name = "InsertDate"     size = "medium" text = "Date" />
+    <tool name = "InsertTime"     size = "medium" text = "Time" />
+  </tools>
+  <tools name = "Symbols" tab = "Insert">
+    <tool name = "InsertSymbol" />
+  </tools>
+  <tools name = "Smart Tags" tab = "Insert">
+    <tool name = "InsertSmartTag" text = "Insert" size = "large" showtext = "true" >
+      <tool name = "FirstName"      size = "large" text = "First Name" />
+      <tool name = "LastName"       size = "large" text = "Last Name" />
+      <tool name = "DocumentName"   size = "large" text = "Document Name" />
+      <tool name = "DocumentAuthor" size = "large" text = "Document Author" />
+    </tool>
+  </tools>
+</root>
